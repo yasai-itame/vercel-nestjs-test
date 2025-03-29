@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { PrismaModule } from "./prisma.module";
 
 @Module({
-  // imports: [PrismaModule],
+  imports: [PrismaModule],
   controllers: [AppController],
   providers: [AppService],
 })
